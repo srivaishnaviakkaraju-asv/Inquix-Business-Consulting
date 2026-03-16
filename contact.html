@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact | Inquix</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+
+<!-- HEADER -->
+
+<header class="site-header">
+
+<div class="header-container">
+
+<div class="logo">
+<img src="Inquix logo.png" alt="Inquix Logo">
+</div>
+
+<nav class="desktop-nav">
+<a href="index.html">Home</a>
+<a href="services.html">Services</a>
+<a href="Approach.html">Approach</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="menu-toggle" id="menu-toggle">
+☰
+</div>
+
+</div>
+
+<div class="mobile-nav" id="mobile-nav">
+
+<a href="index.html">Home</a>
+<a href="services.html">Services</a>
+<a href="Approach.html">Approach</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+
+</div>
+
+</header>
+
+
+<!-- CONTACT SECTION -->
+
+<section class="contact-section">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<h2>Tell Us Your Business Challenge</h2>
+
+<p class="contact-subtext">
+If you're a Micro, Small or Medium Enterprise (MSME) or an Entrepreneur facing challenges and want
+better visibility into your business decisions, feel free to reach out.
+Briefly describe your business challenge and we will explore how we can help.
+</p>
+
+</div>
+
+
+<div class="row justify-content-center">
+
+<div class="col-lg-7">
+
+<form action="https://formsubmit.co/srivaishnaviakkaraju@inquixconsulting.com" method="POST" class="contact-form">
+
+<!-- Email configuration -->
+
+<input type="hidden" name="_subject" value="New Consultation Request - Inquix">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_next" value="https://inquixconsulting.com/thankyou.html">
+
+<!-- Spam protection -->
+
+<input type="text" name="_honey" style="display:none">
+
+
+<input type="text" name="name" placeholder="Your Name" required>
+
+<input type="email" name="email" placeholder="Email Address" required>
+
+<input type="text" name="business" placeholder="Business Type (Retail, Manufacturing, Services etc.)">
+
+<select name="size">
+
+<option value="">Business Size</option>
+<option value="Entrepreneur / Early-Stage Founder">Entrepreneur / Early-Stage Founder</option>
+<option value="Micro Enterprise">Micro Enterprise</option>
+<option value="Small Enterprise">Small Enterprise</option>
+<option value="Medium Enterprise">Medium Enterprise</option>
+
+</select>
+
+<textarea name="message" placeholder="Briefly describe your business challenge"></textarea>
+
+<button type="submit" class="contact-btn">
+Request a Business Consultation
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+
+<!-- DIRECT CONTACT SECTION -->
+
+<div class="direct-contact text-center">
+
+<h3>Prefer to reach out to us directly?</h3>
+
+<p>You can also email us directly and we’ll respond as soon as possible.</p>
+
+<a href="mailto:srivaishnaviakkaraju@inquixconsulting.com" class="email-btn">
+Email Us
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="site-footer text-white text-center py-2">
+
+<p class="mb-0">© 2026 Inquix</p>
+
+</footer>
+<script>
+
+const toggle = document.getElementById("menu-toggle");
+const mobileNav = document.getElementById("mobile-nav");
+
+toggle.addEventListener("click", function(){
+
+mobileNav.classList.toggle("active");
+
+if(toggle.innerHTML === "☰"){
+toggle.innerHTML = "✕";
+}else{
+toggle.innerHTML = "☰";
+}
+
+});
+
+</script>
+
+</body>
+
+</html>
