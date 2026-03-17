@@ -426,6 +426,14 @@ border-radius:6px;
 font-size:0.95rem;
 }
 
+.contact-form select{
+    background:#fff;
+    color:#555;    
+}
+.contact-form select option{
+    color:#333;
+}
+
 .contact-form textarea{
 min-height:120px;
 resize:vertical;
@@ -469,11 +477,12 @@ color:white;
 /* ============================ */
 
 .thankyou-page{
-min-height:70vh;
+flex:1;
 display:flex;
 align-items:center;
 justify-content:center;
 text-align:center;
+padding:40px 20px;
 }
 
 .thankyou-page h1{
@@ -517,6 +526,11 @@ font-size:1rem;
 .feature-card{
 width:100%;
 margin-bottom:25px;
+}
+
+header .container-fluid{
+padding-left:0;
+padding-right: 10px;
 }
 
 }
